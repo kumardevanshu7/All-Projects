@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bat Ball Stump Game</h1>
+    <button onclick="bat()" class="c-btn">
+      <img src="/pics/bat.png" alt="" class="choice-img" />
+    </button>
+    <button onclick="ball()" class="c-btn">
+      <img src="pics/ball.png" alt="" class="choice-img" />
+    </button>
+    <button onclick="stump()" class="c-btn">
+      <img src="pics/stump.png" alt="" class="choice-img" />
+    </button>
+    <br />
+    <br />
+    <br />
+
+    <!-- <button onclick="py()">Check Score</button> -->
+
+    <h3 id="user-move"></h3>
+    <h3 id="Computer-move"></h3>
+    <h3 id="result"></h3>
+    <h3 id="score"></h3>
+
+    <button onclick="reset()" class="refresh-btn">
+      <img src="pics/refresh.png" alt="" class="refre" />
+      <p>Reset</p>
+    </button>
+
+    <!-- <section>
+        <h2>Counters</h2>
+        <div>
+            <ul>
+                <li>User = <span class="u-score">0</span></li>
+                <li>Computer = <span class="c-score">0</span></li>
+            </ul>
+        </div>
+    </section> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
