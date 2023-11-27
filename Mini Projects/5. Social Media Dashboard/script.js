@@ -1,12 +1,12 @@
 let checkbox = document.querySelector("input[name=theme]");
 
-checkbox.addEventListener("change", function(){
-  
-    if(this.checked){
+checkbox.addEventListener("change", function () {
+
+    if (this.checked) {
         trans();
         document.documentElement.setAttribute("data-theme", "dark");
     }
-    else{
+    else {
         trans();
         document.documentElement.setAttribute("data-theme", "light");
     }
@@ -16,7 +16,7 @@ checkbox.addEventListener("change", function(){
 let trans = () => {
     document.documentElement.classList.add("transition");
 
-    window.setTimeout(()=>{
+    window.setTimeout(() => {
         document.documentElement.classList.remove("transition")
     }, 1000)
 }
