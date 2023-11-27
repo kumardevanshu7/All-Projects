@@ -1,52 +1,54 @@
-body{
-    font-family: Arial;
+/* CSS Part */
+
+body {
+  font-family: Arial;
 }
 
-.main-heading{
-    text-align: center;
+.main-heading {
+  text-align: center;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 200px 150px 100px;
-    column-gap: 10px;
-    row-gap: 10px;
-    margin-top: 10px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
 }
 
-.todo-input, .todo-date{
-    font-size: 15px;
-    padding: 15px 12px;
-    border: 2px solid #f2f2f2;
-    border-radius: 20px;
+.todo-input,
+.todo-date {
+  font-size: 15px;
+  padding: 15px 12px;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
 }
 
-.btn-delete{
-    background-color: #a50d0c;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 15px;
-    cursor: pointer;
+.btn-delete {
+  background-color: #a50d0c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  cursor: pointer;
 }
 
-.btn-todo{
-    background-color: #035d11;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 15px;
-    cursor: pointer;
+.btn-todo {
+  background-color: #035d11;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  cursor: pointer;
 }
 
-.btn-delete:hover{
-    background-color: red;
-    transition: 200ms;
+.btn-delete:hover {
+  background-color: red;
+  transition: 200ms;
 }
 
-
-.btn-todo:hover{
-    background-color: green;
-    transition: 200ms;
+.btn-todo:hover {
+  background-color: green;
+  transition: 200ms;
 }
