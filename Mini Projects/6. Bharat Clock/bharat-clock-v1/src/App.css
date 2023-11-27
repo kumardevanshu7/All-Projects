@@ -1,0 +1,32 @@
+.time-show {
+  font-size: 30px;
+  text-align: center;
+}
+
+.head-title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  border: 2px solid gray;
+  width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.time-show span {
+  color: tomato;
+  font-weight: 700;
+}
+.time-show .sec-span {
+  color: green;
+  font-weight: 700;
+}
