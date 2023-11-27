@@ -11,7 +11,6 @@ let todolist = [
 
 displayItems();
 
-
 function addTodo() {
     let inputElement = document.querySelector('.todo-input');
     let dateElement = document.querySelector('.todo-date');
