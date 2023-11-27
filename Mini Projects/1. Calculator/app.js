@@ -1,3 +1,5 @@
+// script part
+
 let currentDisplay = '';
 
 function c() {
