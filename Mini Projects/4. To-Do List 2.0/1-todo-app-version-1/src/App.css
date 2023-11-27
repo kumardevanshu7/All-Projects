@@ -1,0 +1,26 @@
+.head-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 5px 2px;
+}
+.main-container {
+  text-align: left;
+}
+.items-container {
+  text-align: left;
+}
+
+.d-row {
+  margin: 10px 5px;
+}
+
+.d-btn {
+  min-width: 100px;
+}
