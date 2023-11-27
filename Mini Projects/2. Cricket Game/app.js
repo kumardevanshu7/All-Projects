@@ -7,7 +7,7 @@ let score = JSON.parse(scoreStr) || {
 };
 
 score.displayScore = function () {
-    return `WIN : ${score.win} LOST : ${score.lost} TIE : ${score.tie}`;
+    return `WIN: ${score.win} LOST: ${score.lost} TIE: ${score.tie}`;
 }
 
 function generateComputerChoice() {
